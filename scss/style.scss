@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+	width: 100%;
+	background-color: black;
+}
+
+#backpic {
+	background-image: url("../pics/youtubeflag.png");
+	background-repeat: no-repeat;
+	background-size: 75% 400px;
+	background-position: center;
+	min-width: 100%;
+	height: 600px;
+	margin-bottom: -50px;
+	
+	@media (max-width: 550px) {
+	background-image: url("../pics/youtube_flag.png");
+	background-size: 100% 400px;
+	margin-bottom: -80px;
+	}
+}
+footer, #backpic:after {
+	height: 50px;
+
+	@media (max-width: 550px) {
+	height: 80px;
+	}
+}
+footer {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+.links {
+	min-width: 120px;
+	height: 50px;
+	background-size: 100% 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	@media (max-width: 550px) {
+	height: 80px;
+	background-size: 100% 80px;
+	}
+
+}
+.links:hover {
+	background-color: black;
+}
+.youtube {
+	background-image: url("../pics/youtube_logo.png");
+
+	@media (max-width: 550px) {
+	background-image: url("../pics/YT_logo.png");
+	}
+}
+.youtube:hover {
+	background-image: url("../pics/youtube_logo_inv.png");
+
+	@media (max-width: 550px) {
+	background-image: url("../pics/YT_logo_inv.png");
+	}
+}
+.instagram {
+	background-image: url("../pics/instagram_logo.png");
+
+	@media (max-width: 550px) {
+	background-image: url("../pics/insta_logo.png");
+	}
+
+}
+.instagram:hover {
+	background-image: url("../pics/instagram_logo_inv.png");
+
+	@media (max-width: 550px) {
+	background-image: url("../pics/insta_logo_inv.png");
+	}
+}
+.facebook {
+	background-image: url("../pics/facebook_logo.png");
+	
+	@media (max-width: 550px) {
+	background-image: url("../pics/fb_logo.png");
+	
+	}
+}
+.facebook:hover {
+	background-image: url("../pics/facebook_logo_inv.png");
+	
+	@media (max-width: 550px) {
+	background-image: url("../pics/fb_logo_inv.png");
+	
+	}
+}
