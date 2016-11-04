@@ -44,7 +44,7 @@ footer {
   @media (max-width: 550px) {
     .links {
       height: 80px;
-      background-size: 100% 80px; } }
+      background-size: 90% 80px; } }
 
 .links:hover {
   background-color: black; }
